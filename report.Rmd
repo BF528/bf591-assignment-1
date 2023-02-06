@@ -128,8 +128,8 @@ expressed genes, or perhaps the most __variable__ genes. Implement the function
  calculate row or column-wise averages.
 
  **Extra:** instead of simply returning mean probe expression, re-work
- `summarize_expression()` to also return prove _variability_ by first calculating
- prove-wise variability across all samples, and adding the column to the
+ `summarize_expression()` to also return row _variability_ by first calculating
+ row-wise variability across all samples, and adding the column to the
  returned `tibble`. Denote the column as "variance". 
 
 ```{r}
